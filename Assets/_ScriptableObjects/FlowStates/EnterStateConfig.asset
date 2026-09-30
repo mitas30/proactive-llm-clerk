@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3db1b7b18abe0943b5931be9a5fc738, type: 3}
+  m_Name: EnterStateConfig
+  m_EditorClassIdentifier: 
+  finishTutorialEvent: {fileID: 11400000, guid: b350c5e2746ebbb4d9b456431e6b937e, type: 2}
+  startTutorialEvent: {fileID: 11400000, guid: 60267e398a9a4ca418d4b0fcfdc90814, type: 2}
+  finishTutorialStepEvents: {fileID: 11400000, guid: ccfe454893356074b84fc1fe5614873b, type: 2}
+  sensorEventChannel: {fileID: 11400000, guid: eebc20c22b1055441a2d10acc987ac87, type: 2}
+  thresholdTime: 30

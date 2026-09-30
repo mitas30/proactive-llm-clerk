@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad8e52acc744e884b94ee690fe984973, type: 3}
+  m_Name: SimpleSpeechStep
+  m_EditorClassIdentifier: 
+  m_title: "\u5E97\u54E1\u304C\u8A71\u3057\u7D42\u308F\u308B\u306E\u3092\u5F85\u3068\u3046"
+  m_description: "\u5E97\u54E1\u304C\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u306E\u7D42\u4E86\u3092\u544A\u3052\u307E\u3059"
+  m_panelIndex: 4
+  m_fadeInDuration: 2
+  m_fadeOutDuration: 0
+  m_speechText: "\u3053\u3093\u306A\u611F\u3058\u3067\u3001\u306A\u306B\u304B\u805E\u304D\u305F\u3044\u3053\u3068\u304C\u3042\u308C\u3070\u3001\u304A\u6C17\u8EFD\u306B\u304A\u58F0\u304C\u3051\u304F\u3060\u3055\u3044\uFF01\n\u3053\u308C\u3067\u64CD\u4F5C\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u306F\u7D42\u308F\u308A\u3067\u3059\u3002\n\u5F15\u304D\u7D9A\u304D\u81EA\u7531\u306B\u7D75\u753B\u3092\u3054\u3089\u3093\u304F\u3060\u3055\u3044"

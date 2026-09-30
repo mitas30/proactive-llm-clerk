@@ -1,0 +1,1141 @@
+fileFormatVersion: 2
+guid: 4ed0a055c1e7ea0438295800b71bc5ff
+ModelImporter:
+  serializedVersion: 20100
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: c000
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'GuestWoman_mdl:TKVR01_Pelvis' has translation
+      animation that will be discarded.\n\t'GuestWoman_mdl:TKVR01_Pelvis' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: c000
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: GuestWoman_mdl:transform1
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_Head_Eye_L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_Head_Eye_R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_hairC_002
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Finger0
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Finger01
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Finger02
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Finger1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Finger11
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Finger12
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Finger2
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Finger21
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Finger22
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Finger3
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Finger31
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Finger32
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Finger4
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Finger41
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_L_Finger42
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Finger0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Finger01
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Finger02
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Finger1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Finger11
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Finger12
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Finger2
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Finger21
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Finger22
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Finger3
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Finger31
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Finger32
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Finger4
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Finger41
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_R_Finger42
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GuestWoman_mdl:TKVR01_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: TKVR01@c000(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:Bip001
+      parentName: TKVR01@c000(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:transform1
+      parentName: GuestWoman_mdl:Bip001
+      position: {x: -0.000000009177294, y: 0.8697984, z: 0.0066943225}
+      rotation: {x: -0.50000036, y: 0.49999967, z: 0.49999967, w: 0.50000036}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: GuestWoman_mdl:TKVR01_Pelvis
+      parentName: GuestWoman_mdl:transform1
+      position: {x: -0.00000000357628, y: 3.5944459e-10, z: 0}
+      rotation: {x: -0.53460467, y: 0.46281433, z: 0.46281445, w: 0.534606}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_Spine
+      parentName: GuestWoman_mdl:TKVR01_Pelvis
+      position: {x: -0.07014789, y: 0.017409256, z: 0.000000030663287}
+      rotation: {x: -0.0000020728846, y: 0.00000068615907, z: 0.010388853, w: 0.99994606}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_Spine1
+      parentName: GuestWoman_mdl:TKVR01_Spine
+      position: {x: -0.070890926, y: -0.00005604869, z: -1.5554195e-10}
+      rotation: {x: 0.000000009074787, y: -0.00000015825992, z: 0.057246998, w: 0.99836004}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_Spine2
+      parentName: GuestWoman_mdl:TKVR01_Spine1
+      position: {x: -0.07088299, y: -0.00005458124, z: -1.513873e-10}
+      rotation: {x: -2.021112e-14, y: -0.00000035614346, z: 0.12840475, w: 0.99172187}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_Spine3
+      parentName: GuestWoman_mdl:TKVR01_Spine2
+      position: {x: -0.07090089, y: -0.00014457732, z: -4.0097936e-10}
+      rotation: {x: 3.72347e-10, y: 0.000000032133098, z: -0.011586868, w: 0.9999329}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Clavicle
+      parentName: GuestWoman_mdl:TKVR01_Spine3
+      position: {x: -0.13043423, y: -0.006232149, z: 0.020061817}
+      rotation: {x: 0.71776587, y: 0.05852425, z: -0.6912036, w: -0.060205474}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_UpperArm
+      parentName: GuestWoman_mdl:TKVR01_L_Clavicle
+      position: {x: -0.096567445, y: -0.00000005330162, z: -0.00000001397379}
+      rotation: {x: 0.11114826, y: -0.009197157, z: 0.08553627, w: 0.99007326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Forearm
+      parentName: GuestWoman_mdl:TKVR01_L_UpperArm
+      position: {x: -0.20951661, y: -0.000000029220036, z: 4.5223927e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Hand
+      parentName: GuestWoman_mdl:TKVR01_L_Forearm
+      position: {x: -0.23950696, y: -0.00000003441224, z: 5.169745e-10}
+      rotation: {x: -0.70710665, y: 0.000004019811, z: 0.0000040198092, w: 0.70710695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Finger0
+      parentName: GuestWoman_mdl:TKVR01_L_Hand
+      position: {x: -0.03490528, y: 0.017204978, z: -0.018900692}
+      rotation: {x: 0.54672253, y: -0.33797568, z: 0.20277104, w: 0.7387496}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Finger01
+      parentName: GuestWoman_mdl:TKVR01_L_Finger0
+      position: {x: -0.023899345, y: -0.000000045219426, z: -0.0000000055771845}
+      rotation: {x: -1.211364e-10, y: -0.00000001490067, z: -0.008129326, w: 0.999967}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Finger02
+      parentName: GuestWoman_mdl:TKVR01_L_Finger01
+      position: {x: -0.020852275, y: -0.000000051107094, z: -0.00000032695556}
+      rotation: {x: 2.3802762e-11, y: -0.000000014901141, z: 0.0015973764, w: 0.99999875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Finger1
+      parentName: GuestWoman_mdl:TKVR01_L_Hand
+      position: {x: -0.07716335, y: -0.0029481237, z: -0.020799598}
+      rotation: {x: 0.121060506, y: -0.032006867, z: -0.019255351, w: 0.9919421}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Finger11
+      parentName: GuestWoman_mdl:TKVR01_L_Finger1
+      position: {x: -0.023892496, y: -0.000000025197348, z: -0.0000000047674535}
+      rotation: {x: 0.000000014899865, y: -1.9676517e-10, z: -0.013204685, w: 0.99991286}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Finger12
+      parentName: GuestWoman_mdl:TKVR01_L_Finger11
+      position: {x: -0.016560407, y: 0.000000023997135, z: -0.000000012021356}
+      rotation: {x: 0, y: -0, z: -0.006496421, w: 0.9999789}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Finger2
+      parentName: GuestWoman_mdl:TKVR01_L_Hand
+      position: {x: -0.07831002, y: -0.0069256104, z: -0.004515007}
+      rotation: {x: 0.02429349, y: 0.016161162, z: -0.02512115, w: 0.9992585}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Finger21
+      parentName: GuestWoman_mdl:TKVR01_L_Finger2
+      position: {x: -0.0262496, y: -0.00000003177011, z: -4.8387616e-10}
+      rotation: {x: -0.0000000356476, y: -0.000000050459853, z: -0.0050906553, w: 0.99998707}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Finger22
+      parentName: GuestWoman_mdl:TKVR01_L_Finger21
+      position: {x: -0.017382009, y: -0.0000000027604212, z: -0.000000009290803}
+      rotation: {x: 0, y: -0, z: -0.00677378, w: 0.99997705}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Finger3
+      parentName: GuestWoman_mdl:TKVR01_L_Hand
+      position: {x: -0.07455406, y: -0.0069717253, z: 0.012999735}
+      rotation: {x: -0.009079336, y: 0.03927461, z: -0.001095075, w: 0.99918664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Finger31
+      parentName: GuestWoman_mdl:TKVR01_L_Finger3
+      position: {x: -0.022267932, y: 0.0000000040930903, z: -0.000000053652098}
+      rotation: {x: 0, y: -0, z: -0.0035537314, w: 0.9999937}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Finger32
+      parentName: GuestWoman_mdl:TKVR01_L_Finger31
+      position: {x: -0.01816122, y: -0.000000011283387, z: 0.000000012009104}
+      rotation: {x: 0, y: -0, z: -0.008423942, w: 0.99996454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Finger4
+      parentName: GuestWoman_mdl:TKVR01_L_Hand
+      position: {x: -0.06703317, y: -0.004234911, z: 0.026983017}
+      rotation: {x: 0.0005273222, y: 0.045175187, z: 0.015085717, w: 0.998865}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Finger41
+      parentName: GuestWoman_mdl:TKVR01_L_Finger4
+      position: {x: -0.020926628, y: 0.0000000411727, z: 0.0000000130671225}
+      rotation: {x: 0, y: -0, z: -0.0022879173, w: 0.9999974}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Finger42
+      parentName: GuestWoman_mdl:TKVR01_L_Finger41
+      position: {x: -0.013859549, y: -0.00000019806542, z: -0.000000022199169}
+      rotation: {x: 0, y: 0, z: 0.0013583926, w: 0.9999991}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_ForeTwist
+      parentName: GuestWoman_mdl:TKVR01_L_Forearm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Clavicle
+      parentName: GuestWoman_mdl:TKVR01_Spine3
+      position: {x: -0.13043423, y: -0.006232033, z: -0.02006186}
+      rotation: {x: 0.71776605, y: 0.058522325, z: 0.6912037, w: 0.06020355}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_UpperArm
+      parentName: GuestWoman_mdl:TKVR01_R_Clavicle
+      position: {x: -0.09656747, y: -0.000000034707252, z: -0.00000014274687}
+      rotation: {x: -0.11114825, y: 0.009197167, z: 0.08553628, w: 0.99007326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Forearm
+      parentName: GuestWoman_mdl:TKVR01_R_UpperArm
+      position: {x: -0.2095166, y: 0.00000029436004, z: -0.00000022877634}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Hand
+      parentName: GuestWoman_mdl:TKVR01_R_Forearm
+      position: {x: -0.23950686, y: -0.000000021740155, z: 1.2051501e-10}
+      rotation: {x: 0.70710665, y: -0.0000040198106, z: 0.0000040198092, w: 0.70710695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Finger0
+      parentName: GuestWoman_mdl:TKVR01_R_Hand
+      position: {x: -0.03490529, y: 0.017204974, z: 0.01890068}
+      rotation: {x: -0.54672277, y: 0.3379762, z: 0.20277254, w: 0.7387488}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Finger01
+      parentName: GuestWoman_mdl:TKVR01_R_Finger0
+      position: {x: -0.023899194, y: -0.0000000025810958, z: 0.00000002103219}
+      rotation: {x: 0.00000002235101, y: -1.8170444e-10, z: -0.008129316, w: 0.999967}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Finger02
+      parentName: GuestWoman_mdl:TKVR01_R_Finger01
+      position: {x: -0.020852324, y: 0.000000008878197, z: -0.000000032522145}
+      rotation: {x: -0.000000022375518, y: 0.000000014865438, z: 0.0015973616, w: 0.99999875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Finger1
+      parentName: GuestWoman_mdl:TKVR01_R_Hand
+      position: {x: -0.07716337, y: -0.0029479733, z: 0.02079957}
+      rotation: {x: -0.1210605, y: 0.032006867, z: -0.019255351, w: 0.9919421}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Finger11
+      parentName: GuestWoman_mdl:TKVR01_R_Finger1
+      position: {x: -0.023892423, y: -0.00000002866945, z: 0.000000032115384}
+      rotation: {x: 0, y: -0, z: -0.013204682, w: 0.99991286}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Finger12
+      parentName: GuestWoman_mdl:TKVR01_R_Finger11
+      position: {x: -0.016560256, y: 0.000000036462815, z: 0.000000006833507}
+      rotation: {x: 0, y: -0, z: -0.0064964183, w: 0.9999789}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Finger2
+      parentName: GuestWoman_mdl:TKVR01_R_Hand
+      position: {x: -0.07831015, y: -0.006925611, z: 0.004514978}
+      rotation: {x: -0.024293492, y: -0.016161164, z: -0.025121154, w: 0.9992585}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Finger21
+      parentName: GuestWoman_mdl:TKVR01_R_Finger2
+      position: {x: -0.026249835, y: 0.00000010998358, z: -0.000000007213008}
+      rotation: {x: 0.00000003376897, y: 0.000000047326157, z: -0.005090655, w: 0.99998707}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Finger22
+      parentName: GuestWoman_mdl:TKVR01_R_Finger21
+      position: {x: -0.01738193, y: 0.0000000017831766, z: 0.000000012315793}
+      rotation: {x: 0, y: -0, z: -0.0067737857, w: 0.99997705}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Finger3
+      parentName: GuestWoman_mdl:TKVR01_R_Hand
+      position: {x: -0.07455403, y: -0.006971571, z: -0.01299977}
+      rotation: {x: 0.009079633, y: -0.039272033, z: -0.0010913776, w: 0.99918675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Finger31
+      parentName: GuestWoman_mdl:TKVR01_R_Finger3
+      position: {x: -0.022267977, y: 0.00000015467444, z: -9.495437e-10}
+      rotation: {x: 0, y: -0, z: -0.0035537288, w: 0.9999937}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Finger32
+      parentName: GuestWoman_mdl:TKVR01_R_Finger31
+      position: {x: -0.018161304, y: 0.00000029132542, z: -0.0000000019254718}
+      rotation: {x: 0, y: -0, z: -0.008423934, w: 0.99996454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Finger4
+      parentName: GuestWoman_mdl:TKVR01_R_Hand
+      position: {x: -0.06703306, y: -0.0042347554, z: -0.026983067}
+      rotation: {x: -0.00052776927, y: -0.045173187, z: 0.015084413, w: 0.9988652}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Finger41
+      parentName: GuestWoman_mdl:TKVR01_R_Finger4
+      position: {x: -0.02092685, y: 0.000000035398067, z: -0.000000012589071}
+      rotation: {x: 0, y: -0, z: -0.0022879152, w: 0.9999974}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Finger42
+      parentName: GuestWoman_mdl:TKVR01_R_Finger41
+      position: {x: -0.013859308, y: -0.00000018967616, z: 0.000000006826052}
+      rotation: {x: 0, y: 0, z: 0.0013583914, w: 0.9999991}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_ForeTwist
+      parentName: GuestWoman_mdl:TKVR01_R_Forearm
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_Neck
+      parentName: GuestWoman_mdl:TKVR01_Spine3
+      position: {x: -0.175722, y: -0.013638595, z: -0.000000013004571}
+      rotation: {x: -6.8394854e-14, y: 0.0000006754428, z: -0.24352556, w: 0.96989447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_Head
+      parentName: GuestWoman_mdl:TKVR01_Neck
+      position: {x: -0.09522081, y: -0.00000003900726, z: -8.719732e-15}
+      rotation: {x: 0.00000000909246, y: -0.00000015841226, z: 0.057303138, w: 0.9983568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_Head_Eye_R
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.08007935, y: 0.060710296, z: -0.026329957}
+      rotation: {x: 0.7580377, y: -0.6522073, z: 0.0016145626, w: 0.001387044}
+      scale: {x: 1, y: 1.000001, z: 1}
+    - name: GuestWoman_mdl:TKVR01_Head_Eye_L
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.08007919, y: 0.060710173, z: 0.026329953}
+      rotation: {x: 0.0012011029, y: 0.0017733568, z: -0.65220296, w: 0.7580414}
+      scale: {x: 1, y: 1.000001, z: 1.000001}
+    - name: GuestWoman_mdl:TKVR01_hairA_001
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.13397843, y: 0.06884455, z: -0.049264718}
+      rotation: {x: -0.121150546, y: 0.8712724, z: -0.45507607, w: -0.13824922}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairA_002
+      parentName: GuestWoman_mdl:TKVR01_hairA_001
+      position: {x: -0.027382964, y: 0, z: 0.000000076293944}
+      rotation: {x: -0.043593403, y: -0.05038827, z: 0.17446513, w: 0.98240656}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairA_003
+      parentName: GuestWoman_mdl:TKVR01_hairA_002
+      position: {x: -0.028085174, y: -0.000000009536743, z: -0.000000038146972}
+      rotation: {x: -0.012410746, y: 0.13347231, z: 0.22438759, w: 0.9652364}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairC_001
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.14581756, y: 0.080198, z: -0.013903154}
+      rotation: {x: -0.20448092, y: 0.9581758, z: -0.06337111, w: -0.18992318}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairC_002
+      parentName: GuestWoman_mdl:TKVR01_hairC_001
+      position: {x: -0.020468902, y: 0.000000038146972, z: -0.000000038146972}
+      rotation: {x: 0.08442224, y: 0.073752806, z: 0.09111505, w: 0.9895107}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairC_003
+      parentName: GuestWoman_mdl:TKVR01_hairC_002
+      position: {x: -0.02408676, y: 0.000000076293944, z: 0}
+      rotation: {x: -0.00013607484, y: 0.18848556, z: 0.2363664, w: 0.95320725}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairB_001
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.15562454, y: 0.06304448, z: 0.023157204}
+      rotation: {x: -0.34090072, y: 0.88239765, z: 0.28848243, w: -0.14811862}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairB_002
+      parentName: GuestWoman_mdl:TKVR01_hairB_001
+      position: {x: -0.0252919, y: 0, z: -0.000000076293944}
+      rotation: {x: -0.03537515, y: -0.01639716, z: 0.14877841, w: 0.9881016}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairB_003
+      parentName: GuestWoman_mdl:TKVR01_hairB_002
+      position: {x: -0.022440642, y: -0.000000019073486, z: -0.000000038146972}
+      rotation: {x: 0.009113561, y: 0.023074511, z: 0.22482808, w: 0.9740826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairE_001
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.12907837, y: 0.06143565, z: 0.054886427}
+      rotation: {x: 0.014689502, y: 0.83728266, z: 0.51192504, w: 0.19150649}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairE_002
+      parentName: GuestWoman_mdl:TKVR01_hairE_001
+      position: {x: -0.030567473, y: -0.000000019073486, z: -0.000000076293944}
+      rotation: {x: 0.028347138, y: 0.03850817, z: 0.106848024, w: 0.9931249}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairE_003
+      parentName: GuestWoman_mdl:TKVR01_hairE_002
+      position: {x: -0.026625823, y: 0, z: 0.000000076293944}
+      rotation: {x: 0.04178458, y: 0.11533834, z: 0.047959406, w: 0.9912875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairE_004
+      parentName: GuestWoman_mdl:TKVR01_hairE_003
+      position: {x: -0.024560394, y: -0.000000019073486, z: 0}
+      rotation: {x: 0.0018054459, y: 0.116641186, z: -0.0003960562, w: 0.9931724}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairE_005
+      parentName: GuestWoman_mdl:TKVR01_hairE_004
+      position: {x: -0.02558319, y: -0.000000038146972, z: 0.000000019073486}
+      rotation: {x: 0.006200224, y: 0.03352217, z: -0.1356289, w: 0.99017304}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairH_001
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.002126312, y: -0.028582096, z: 0.074948885}
+      rotation: {x: -0.19120678, y: 0.9070157, z: 0.2946349, w: -0.23227747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairH_002
+      parentName: GuestWoman_mdl:TKVR01_hairH_001
+      position: {x: -0.031244582, y: 0, z: 0}
+      rotation: {x: -0.10752377, y: -0.3127915, z: 0.19273138, w: 0.92382616}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairH_003
+      parentName: GuestWoman_mdl:TKVR01_hairH_002
+      position: {x: -0.020352554, y: -0.000000038146972, z: 0}
+      rotation: {x: -0.08184926, y: -0.5081822, z: -0.1309067, w: 0.8472986}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairJ_001
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.018421326, y: -0.06430952, z: 0.06328715}
+      rotation: {x: 0.006023253, y: 0.4165477, z: 0.90111095, w: -0.12021141}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairJ_002
+      parentName: GuestWoman_mdl:TKVR01_hairJ_001
+      position: {x: -0.022644348, y: -0.000000028610229, z: -0.000000009536743}
+      rotation: {x: -0.23860237, y: 0.1009652, z: -0.20587721, w: 0.9436575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairJ_003
+      parentName: GuestWoman_mdl:TKVR01_hairJ_002
+      position: {x: -0.018662108, y: 0, z: 0.000000076293944}
+      rotation: {x: 0.19430356, y: -0.15320851, z: -0.18649493, w: 0.9507854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairL_001
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.08106354, y: -0.09964679, z: 0.042477872}
+      rotation: {x: 0.10602929, y: 0.21702, z: 0.9670437, w: -0.08053924}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairL_002
+      parentName: GuestWoman_mdl:TKVR01_hairL_001
+      position: {x: -0.026884003, y: 0.000000057220458, z: 0.000000076293944}
+      rotation: {x: -0.03702586, y: 0.13611482, z: 0.047984574, w: 0.98883736}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairL_003
+      parentName: GuestWoman_mdl:TKVR01_hairL_002
+      position: {x: -0.023641968, y: 0.000000038146972, z: -0.000000047683713}
+      rotation: {x: -0.047965396, y: 0.13162129, z: -0.112793535, w: 0.9836935}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairI_001
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.07717727, y: -0.11132726, z: -0.0105942665}
+      rotation: {x: 0.038800932, y: -0.09288291, z: 0.9849323, w: -0.14062612}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairI_002
+      parentName: GuestWoman_mdl:TKVR01_hairI_001
+      position: {x: -0.035077818, y: 0.000000009536743, z: 0.000000028610229}
+      rotation: {x: 0.047790073, y: 0.107948005, z: 0.074562885, w: 0.9902039}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairI_003
+      parentName: GuestWoman_mdl:TKVR01_hairI_002
+      position: {x: -0.031084137, y: -0.000000019073486, z: -0.000000076293944}
+      rotation: {x: 0.031095687, y: -0.11682109, z: -0.15463175, w: 0.98054826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairK_001
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.093986206, y: -0.08530256, z: -0.06714519}
+      rotation: {x: 0.21729895, y: -0.46101022, z: 0.8535497, w: -0.108183354}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairK_002
+      parentName: GuestWoman_mdl:TKVR01_hairK_001
+      position: {x: -0.031429138, y: 0, z: 0}
+      rotation: {x: 0.004642435, y: -0.06933165, z: 0.039720487, w: 0.9967918}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairK_003
+      parentName: GuestWoman_mdl:TKVR01_hairK_002
+      position: {x: -0.024477843, y: -0.000000038146972, z: 0}
+      rotation: {x: -0.064839244, y: -0.12764491, z: -0.15970168, w: 0.97672826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairG_001
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.06754928, y: 0.03477701, z: -0.08662033}
+      rotation: {x: -0.033104457, y: 0.89802796, z: -0.42981538, w: 0.08779896}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairG_002
+      parentName: GuestWoman_mdl:TKVR01_hairG_001
+      position: {x: -0.025086517, y: -0.000000019073486, z: 0.000000009536743}
+      rotation: {x: -0.0090279095, y: 0.03910988, z: 0.103420906, w: 0.9938275}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairG_003
+      parentName: GuestWoman_mdl:TKVR01_hairG_002
+      position: {x: -0.021815032, y: 0.000000038146972, z: -0.0000000047683715}
+      rotation: {x: 0.012261402, y: 0.09644469, z: 0.051554844, w: 0.99392664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairG_004
+      parentName: GuestWoman_mdl:TKVR01_hairG_003
+      position: {x: -0.031360548, y: 0.000000114440915, z: 0}
+      rotation: {x: 0.03867827, y: 0.35261172, z: -0.025467481, w: 0.9346231}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairG_005
+      parentName: GuestWoman_mdl:TKVR01_hairG_004
+      position: {x: -0.027034149, y: 0.000000114440915, z: 0.000000076293944}
+      rotation: {x: 0.01364504, y: 0.10586326, z: 0.09408712, w: 0.9898254}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairD_001
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.08249267, y: 0.04512928, z: -0.07062896}
+      rotation: {x: -0.1324415, y: 0.9399952, z: -0.27479213, w: 0.15283151}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairD_002
+      parentName: GuestWoman_mdl:TKVR01_hairD_001
+      position: {x: -0.039976805, y: 0.000000019073486, z: -0.000000076293944}
+      rotation: {x: 0.085503794, y: -0.057252962, z: 0.05139634, w: 0.9933628}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairD_003
+      parentName: GuestWoman_mdl:TKVR01_hairD_002
+      position: {x: -0.023135375, y: 0, z: -0.000000038146972}
+      rotation: {x: 0.10000786, y: 0.14221752, z: 0.12937887, w: 0.9762345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairD_004
+      parentName: GuestWoman_mdl:TKVR01_hairD_003
+      position: {x: -0.025065918, y: -0.000000038146972, z: -0.000000019073486}
+      rotation: {x: 0.01863154, y: 0.21199813, z: 0.0063547646, w: 0.9770718}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_hairD_005
+      parentName: GuestWoman_mdl:TKVR01_hairD_004
+      position: {x: -0.030606536, y: 0, z: 0}
+      rotation: {x: 0.27388573, y: 0.30943114, z: -0.2336058, w: 0.88015187}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_brow_01_L
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.09702118, y: 0.0829601, z: 0.014736286}
+      rotation: {x: 0.704612, y: 0.059361015, z: -0.70460945, w: 0.05936123}
+      scale: {x: 1, y: 0.999999, z: 1}
+    - name: GuestWoman_mdl:TKVR01_brow_01_R
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.09702042, y: 0.082960606, z: -0.0147348605}
+      rotation: {x: 0.70461196, y: 0.059360687, z: -0.7046095, w: 0.059360895}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_brow_02_L
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.098489225, y: 0.07751936, z: 0.032751434}
+      rotation: {x: 0.704612, y: 0.059361015, z: -0.70460945, w: 0.05936123}
+      scale: {x: 1, y: 0.999999, z: 1}
+    - name: GuestWoman_mdl:TKVR01_brow_02_R
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.09848968, y: 0.077519625, z: -0.032750145}
+      rotation: {x: 0.70461196, y: 0.059360687, z: -0.7046095, w: 0.059360895}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_brow_03_L
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.093563996, y: 0.06909244, z: 0.04396253}
+      rotation: {x: 0.704612, y: 0.059361015, z: -0.70460945, w: 0.05936123}
+      scale: {x: 1, y: 0.999999, z: 1}
+    - name: GuestWoman_mdl:TKVR01_brow_03_R
+      parentName: GuestWoman_mdl:TKVR01_Head
+      position: {x: -0.0935643, y: 0.06909303, z: -0.043961376}
+      rotation: {x: 0.70461196, y: 0.059360687, z: -0.7046095, w: 0.059360895}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Thigh
+      parentName: GuestWoman_mdl:TKVR01_Pelvis
+      position: {x: 0.000000091694254, y: 0.00000013591358, z: 0.070452005}
+      rotation: {x: -0.07179094, y: 0.9974197, z: -0.000001385502, w: -0.00000070129136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Calf
+      parentName: GuestWoman_mdl:TKVR01_L_Thigh
+      position: {x: -0.39645952, y: -0.0000000014190518, z: -0.000000012490174}
+      rotation: {x: 0, y: 0, z: 0.01378278, w: 0.99990505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Foot
+      parentName: GuestWoman_mdl:TKVR01_L_Calf
+      position: {x: -0.3957452, y: -5.8416355e-10, z: 0.000000016978978}
+      rotation: {x: -0.0000006453157, y: -0.0000000034909309, z: -0.013782737, w: 0.99990505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_L_Toe0
+      parentName: GuestWoman_mdl:TKVR01_L_Foot
+      position: {x: -0.0721595, y: 0.104018934, z: 0.0000000018326786}
+      rotation: {x: 0.00000001545431, y: -0.000000015454312, z: -0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Thigh
+      parentName: GuestWoman_mdl:TKVR01_Pelvis
+      position: {x: -0.000000102535076, y: -0.000000060996015, z: -0.07045203}
+      rotation: {x: -0.07179094, y: 0.9974197, z: -0.00000005735725, w: -0.0000007968868}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Calf
+      parentName: GuestWoman_mdl:TKVR01_R_Thigh
+      position: {x: -0.39645958, y: -0.000000018108295, z: -0.000000024021999}
+      rotation: {x: 0, y: 0, z: 0.01378278, w: 0.99990505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Foot
+      parentName: GuestWoman_mdl:TKVR01_R_Calf
+      position: {x: -0.3957452, y: 0.000000017290319, z: 0.00000003607614}
+      rotation: {x: 0.0000006441109, y: -0.00000008392354, z: -0.013782737, w: 0.99990505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_R_Toe0
+      parentName: GuestWoman_mdl:TKVR01_R_Foot
+      position: {x: -0.07215951, y: 0.10401894, z: -0.0000000072403257}
+      rotation: {x: -0.000000015454308, y: 0.00000001545431, z: -0.7071068, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_Hip_R
+      parentName: GuestWoman_mdl:TKVR01_Pelvis
+      position: {x: -0.00000015258789, y: -0.000000057220458, z: -0.07045199}
+      rotation: {x: -0.00000053511644, y: 0.0000013698861, z: 0.7560461, w: 0.65451837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_Hip_L
+      parentName: GuestWoman_mdl:TKVR01_Pelvis
+      position: {x: 0.000000076293944, y: 0.0000001335144, z: 0.07045203}
+      rotation: {x: -0.00000053511644, y: 0.0000013698861, z: 0.7560461, w: 0.65451837}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:TKVR01_Hip_Bottom
+      parentName: GuestWoman_mdl:TKVR01_Pelvis
+      position: {x: -0, y: -0.000000009536743, z: -0.0000000091773105}
+      rotation: {x: -0.07179082, y: 0.9974197, z: -0.0000017953301, w: -0.00000064450495}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:Cam:camera1_group
+      parentName: TKVR01@c000(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:Cam:camera1
+      parentName: GuestWoman_mdl:Cam:camera1_group
+      position: {x: -0, y: 1.535238, z: 0.8687947}
+      rotation: {x: 0, y: -0.9978912, z: 0.06490957, w: 0}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:Cam:EyeAim_Ctrl
+      parentName: GuestWoman_mdl:Cam:camera1
+      position: {x: -0, y: -0.05755863, z: -0.010794036}
+      rotation: {x: 0.06490955, y: -0, z: -0, w: 0.9978911}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:Cam:Eye_R
+      parentName: GuestWoman_mdl:Cam:EyeAim_Ctrl
+      position: {x: 0.026329674, y: 0.0000002002595, z: -0.01554809}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GuestWoman_mdl:Cam:Eye_L
+      parentName: GuestWoman_mdl:Cam:EyeAim_Ctrl
+      position: {x: -0.026330234, y: 0, z: -0.01554809}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

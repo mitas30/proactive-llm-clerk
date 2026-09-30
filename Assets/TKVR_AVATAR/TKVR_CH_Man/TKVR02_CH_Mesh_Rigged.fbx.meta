@@ -1,0 +1,664 @@
+fileFormatVersion: 2
+guid: 89dce0459ec4d0f4bac69f744f2a3b82
+ModelImporter:
+  serializedVersion: 20100
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_Hair_back_Slender_001
+    second: {fileID: 2100000, guid: 0faa96c40cf4fb34886569cf55b333d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_Hair_back_Slender_002
+    second: {fileID: 2100000, guid: 0faa96c40cf4fb34886569cf55b333d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_Hair_back_Thick_001
+    second: {fileID: 2100000, guid: 0faa96c40cf4fb34886569cf55b333d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_Hair_front_Slender_001
+    second: {fileID: 2100000, guid: 0faa96c40cf4fb34886569cf55b333d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_Hair_front_Slender_002
+    second: {fileID: 2100000, guid: 0faa96c40cf4fb34886569cf55b333d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_Hair_side_Slender_001
+    second: {fileID: 2100000, guid: 0faa96c40cf4fb34886569cf55b333d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_Hair_side_Thick_001
+    second: {fileID: 2100000, guid: 0faa96c40cf4fb34886569cf55b333d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_Hair_side_Thick_002
+    second: {fileID: 2100000, guid: 0faa96c40cf4fb34886569cf55b333d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_arm
+    second: {fileID: 2100000, guid: e3d668db558dca643bd4ced6c8874fc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_bottom
+    second: {fileID: 2100000, guid: 9c1e7cf81689719429144e24c0114d3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_cloth_Tshirts
+    second: {fileID: 2100000, guid: aeea7fb7540e9bd44b0ec8b72ac286e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_eye
+    second: {fileID: 2100000, guid: 3b5db35201079ea429be36b0d156968c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_eye_cornea
+    second: {fileID: 2100000, guid: fc4501172bef8f548ac9b0c0b415f95d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_face
+    second: {fileID: 2100000, guid: a04c2ed8e14eb3b499b9a458674d0a0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_lashes
+    second: {fileID: 2100000, guid: 77b9ccdc912edf949a3b3404c7ba7ea1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_leg
+    second: {fileID: 2100000, guid: 67204ea4034b8374289040cf894fa808, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_mouth
+    second: {fileID: 2100000, guid: fcb9e8f9a7d87474ba7c75f41bed4056, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_neck
+    second: {fileID: 2100000, guid: e37be87f4afdba14b816cfd3a13448be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_sh_gums
+    second: {fileID: 2100000, guid: f98fdae22b0e48944a1b1a262303315b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TKVR02_shoes
+    second: {fileID: 2100000, guid: 159a113e38d1da44085fbac00ee629e4, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
+      does not match position in animation file:\n\t'TKVR02_LeftUpLeg' : position
+      error = 5.783156 mm\n\t'TKVR02_LeftLeg' : position error = 25.668388 mm\n\t'TKVR02_LeftFoot'
+      : position error = 21.557955 mm\n\t'TKVR02_LeftToeBase' : position error =
+      9.532001 mm\n\t'TKVR02_RightUpLeg' : position error = 5.783143 mm\n\t'TKVR02_RightLeg'
+      : position error = 25.668388 mm\n\t'TKVR02_RightFoot' : position error = 21.557924
+      mm\n\t'TKVR02_RightToeBase' : position error = 9.531988 mm\n"
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: TKVR02_CH_Mesh_Rigged(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: blendshape_grp
+      parentName: TKVR02_CH_Mesh_Rigged(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geometry_grp
+      parentName: TKVR02_CH_Mesh_Rigged(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_001_CH_Mesh_head
+      parentName: geometry_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_001_CH_Mesh_Shoes_L
+      parentName: geometry_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_001_CH_Mesh_Shoes_R
+      parentName: geometry_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_001_CH_Mesh_Pants
+      parentName: geometry_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_001_CH_Mesh_hairSideA
+      parentName: geometry_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_001_CH_Mesh_hairTopA
+      parentName: geometry_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_001_CH_Mesh_hairTopB
+      parentName: geometry_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_001_CH_Mesh_hairSideB
+      parentName: geometry_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_001_CH_Mesh_hairSideC
+      parentName: geometry_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_001_CH_Mesh_hair
+      parentName: geometry_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_001_CH_Mesh_hairBackA
+      parentName: geometry_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_001_CH_Mesh_hairBackB
+      parentName: geometry_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_001_CH_Mesh_hairBackC
+      parentName: geometry_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_001_CH_Mesh_Cloth
+      parentName: geometry_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_001_CH_Mesh_body
+      parentName: geometry_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rig_grp
+      parentName: TKVR02_CH_Mesh_Rigged(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_Hips
+      parentName: rig_grp
+      position: {x: -0.000000045805496, y: 0.88637173, z: 0.0023087675}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHip
+      parentName: TKVR02_Hips
+      position: {x: 0.08019364, y: -0.0468808, z: 0.009953132}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHip
+      parentName: TKVR02_Hips
+      position: {x: -0.080193624, y: -0.046880607, z: 0.009953092}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_Hip_Bottom
+      parentName: TKVR02_Hips
+      position: {x: 0.000000009177335, y: -0.06442535, z: -0.000000009438416}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_Spine
+      parentName: TKVR02_Hips
+      position: {x: 0.00000000937055, y: 0.11824307, z: 1.2510826e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_Spine1
+      parentName: TKVR02_Spine
+      position: {x: 0.0000000115153975, y: 0.14651984, z: 0.0000000028512923}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_Spine2
+      parentName: TKVR02_Spine1
+      position: {x: 0.000000049725962, y: 0.13523708, z: 0.00000010931182}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftShoulder
+      parentName: TKVR02_Spine2
+      position: {x: -0.031013314, y: 0.12298708, z: -0.012284322}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftArm
+      parentName: TKVR02_LeftShoulder
+      position: {x: -0.14050955, y: 0.0075392863, z: -0.024900729}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftForeArm
+      parentName: TKVR02_LeftArm
+      position: {x: -0.24868461, y: -0.0002085194, z: -0.005275254}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHand
+      parentName: TKVR02_LeftForeArm
+      position: {x: -0.24761288, y: -0.0001737896, z: 0.0034319374}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandThumb1
+      parentName: TKVR02_LeftHand
+      position: {x: -0.010028877, y: 0.0023071603, z: 0.026050398}
+      rotation: {x: -0.12762697, y: 0.0536873, z: -0.10562977, w: 0.9847189}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandThumb2
+      parentName: TKVR02_LeftHandThumb1
+      position: {x: -0.030079152, y: -0.019604295, z: 0.026379103}
+      rotation: {x: -0.005916059, y: 0.07907976, z: 0.052024163, w: 0.9954923}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandThumb3
+      parentName: TKVR02_LeftHandThumb2
+      position: {x: -0.028044363, y: -0.011230432, z: 0.01388163}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandThumb4
+      parentName: TKVR02_LeftHandThumb3
+      position: {x: -0.026707556, y: -0.010694923, z: 0.013219627}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandIndex1
+      parentName: TKVR02_LeftHand
+      position: {x: -0.09381173, y: -0.00048887875, z: 0.0318938}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandIndex2
+      parentName: TKVR02_LeftHandIndex1
+      position: {x: -0.032042947, y: -0.00007708958, z: 0.0025464036}
+      rotation: {x: -0.0023547257, y: 0.015412065, z: -0.029164156, w: 0.99945307}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandIndex3
+      parentName: TKVR02_LeftHandIndex2
+      position: {x: -0.021531744, y: -0.0028496087, z: 0.00023259358}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandIndex4
+      parentName: TKVR02_LeftHandIndex3
+      position: {x: -0.023650492, y: -0.0030099137, z: 0.00024567812}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandMiddle1
+      parentName: TKVR02_LeftHand
+      position: {x: -0.09348191, y: 0.002441559, z: 0.009335345}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandMiddle2
+      parentName: TKVR02_LeftHandMiddle1
+      position: {x: -0.040430173, y: -0.000075610966, z: -0.0007068625}
+      rotation: {x: 0.00029591203, y: 0.00011053902, z: -0.016936997, w: 0.99985653}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandMiddle3
+      parentName: TKVR02_LeftHandMiddle2
+      position: {x: -0.025566898, y: -0.0030120115, z: -0.00046634718}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandMiddle4
+      parentName: TKVR02_LeftHandMiddle3
+      position: {x: -0.025036557, y: -0.00229955, z: -0.00045221302}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandRing1
+      parentName: TKVR02_LeftHand
+      position: {x: -0.0921353, y: 0.0023352928, z: -0.012986089}
+      rotation: {x: -0.00069355237, y: 0.019844905, z: -0.012135211, w: 0.9997292}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandRing2
+      parentName: TKVR02_LeftHandRing1
+      position: {x: -0.034695216, y: -0.0029216032, z: -0.0027948}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandRing3
+      parentName: TKVR02_LeftHandRing2
+      position: {x: -0.022125937, y: -0.0024823358, z: -0.0018352581}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandRing4
+      parentName: TKVR02_LeftHandRing3
+      position: {x: -0.022379661, y: -0.0036550714, z: -0.0018562939}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandPinky1
+      parentName: TKVR02_LeftHand
+      position: {x: -0.08422538, y: -0.0047345106, z: -0.03449468}
+      rotation: {x: -0.00007838651, y: 0.06995325, z: -0.019080205, w: 0.9973678}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandPinky2
+      parentName: TKVR02_LeftHandPinky1
+      position: {x: -0.022242608, y: -0.0012195249, z: -0.0043796864}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandPinky3
+      parentName: TKVR02_LeftHandPinky2
+      position: {x: -0.017519223, y: -0.0012647532, z: -0.00354585}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftHandPinky4
+      parentName: TKVR02_LeftHandPinky3
+      position: {x: -0.019084904, y: -0.0017780205, z: -0.0038627665}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftForeTwist
+      parentName: TKVR02_LeftForeArm
+      position: {x: 1.4210854e-16, y: -2.842171e-16, z: -8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightShoulder
+      parentName: TKVR02_Spine2
+      position: {x: 0.031013273, y: 0.122988194, z: -0.012284319}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightArm
+      parentName: TKVR02_RightShoulder
+      position: {x: 0.1405097, y: 0.00754, z: -0.02490076}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightForeArm
+      parentName: TKVR02_RightArm
+      position: {x: 0.24868499, y: -0.00021, z: -0.0052752}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHand
+      parentName: TKVR02_RightForeArm
+      position: {x: 0.247612, y: -0.00017, z: 0.0034319002}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandThumb1
+      parentName: TKVR02_RightHand
+      position: {x: 0.010029, y: 0.0023, z: 0.0260504}
+      rotation: {x: -0.12759088, y: -0.053683236, z: 0.10559931, w: 0.98472714}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandThumb2
+      parentName: TKVR02_RightHandThumb1
+      position: {x: 0.030079, y: -0.0196, z: 0.0263791}
+      rotation: {x: -0.005927801, y: -0.07908392, z: -0.052001223, w: 0.9954931}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandThumb3
+      parentName: TKVR02_RightHandThumb2
+      position: {x: 0.028045, y: -0.01123, z: 0.0138815995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandThumb4
+      parentName: TKVR02_RightHandThumb3
+      position: {x: 0.026707001, y: -0.0107, z: 0.013219699}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandIndex1
+      parentName: TKVR02_RightHand
+      position: {x: 0.093812, y: -0.00048999995, z: 0.03189381}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandIndex2
+      parentName: TKVR02_RightHandIndex1
+      position: {x: 0.032043, y: -0.000080000005, z: 0.0025464098}
+      rotation: {x: -0.002353591, y: -0.015403713, z: 0.02913274, w: 0.9994541}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandIndex3
+      parentName: TKVR02_RightHandIndex2
+      position: {x: 0.021532, y: -0.0028499998, z: 0.00023259}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandIndex4
+      parentName: TKVR02_RightHandIndex3
+      position: {x: 0.02365, y: -0.0030099999, z: 0.00024568}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandMiddle1
+      parentName: TKVR02_RightHand
+      position: {x: 0.093481995, y: 0.00244, z: 0.0093354}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandMiddle2
+      parentName: TKVR02_RightHandMiddle1
+      position: {x: 0.040430002, y: -0.000080000005, z: -0.00070689997}
+      rotation: {x: 0.00029415407, y: -0.00011021894, z: 0.016836163, w: 0.99985826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandMiddle3
+      parentName: TKVR02_RightHandMiddle2
+      position: {x: 0.025566999, y: -0.0030099999, z: -0.0004664}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandMiddle4
+      parentName: TKVR02_RightHandMiddle3
+      position: {x: 0.025037, y: -0.0023, z: -0.00045219998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandRing1
+      parentName: TKVR02_RightHand
+      position: {x: 0.092136, y: 0.0023299998, z: -0.012986099}
+      rotation: {x: -0.0006928475, y: -0.01983438, z: 0.01212204, w: 0.9997296}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandRing2
+      parentName: TKVR02_RightHandRing1
+      position: {x: 0.034695, y: -0.0029199999, z: -0.0027948}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandRing3
+      parentName: TKVR02_RightHandRing2
+      position: {x: 0.022125999, y: -0.0024799998, z: -0.0018352}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandRing4
+      parentName: TKVR02_RightHandRing3
+      position: {x: 0.022379, y: -0.00366, z: -0.0018562999}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandPinky1
+      parentName: TKVR02_RightHand
+      position: {x: 0.084226, y: -0.00474, z: -0.034494698}
+      rotation: {x: -0.00007966812, y: -0.069956735, z: 0.019082231, w: 0.9973675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandPinky2
+      parentName: TKVR02_RightHandPinky1
+      position: {x: 0.022242, y: -0.00122, z: -0.0043797}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandPinky3
+      parentName: TKVR02_RightHandPinky2
+      position: {x: 0.01752, y: -0.00126, z: -0.0035457998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightHandPinky4
+      parentName: TKVR02_RightHandPinky3
+      position: {x: 0.019084001, y: -0.0017799999, z: -0.0038627998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightForeTwist
+      parentName: TKVR02_RightForeArm
+      position: {x: -2.842171e-16, y: -5.684342e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_Neck
+      parentName: TKVR02_Spine2
+      position: {x: 0.0000018634687, y: 0.17183113, z: -0.034255244}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_Head
+      parentName: TKVR02_Neck
+      position: {x: 4.853515e-12, y: 0.084184915, z: 0.036540236}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_HeadTop_End
+      parentName: TKVR02_Head
+      position: {x: -4.853515e-12, y: 0.19043128, z: 0.0031947894}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftEye
+      parentName: TKVR02_Head
+      position: {x: -0.030499784, y: 0.07493133, z: 0.083528124}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightEye
+      parentName: TKVR02_Head
+      position: {x: 0.030496052, y: 0.07493133, z: 0.083528124}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftUpLeg
+      parentName: TKVR02_Hips
+      position: {x: -0.080193624, y: -0.046880644, z: 0.009953092}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftLeg
+      parentName: TKVR02_LeftUpLeg
+      position: {x: -0.009495834, y: -0.41369686, z: -0.026544956}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftFoot
+      parentName: TKVR02_LeftLeg
+      position: {x: -0.011490554, y: -0.34704688, z: -0.026605966}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftToeBase
+      parentName: TKVR02_LeftFoot
+      position: {x: -0.01832196, y: -0.062636055, z: 0.13946985}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_LeftToe_End
+      parentName: TKVR02_LeftToeBase
+      position: {x: -0.00000009980903, y: 2.8865798e-17, z: 0.07495531}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightUpLeg
+      parentName: TKVR02_Hips
+      position: {x: 0.08019364, y: -0.0468808, z: 0.009953132}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightLeg
+      parentName: TKVR02_RightUpLeg
+      position: {x: 0.0094958, y: -0.413697, z: -0.026545}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightFoot
+      parentName: TKVR02_RightLeg
+      position: {x: 0.0114906, y: -0.34704658, z: -0.026606}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightToeBase
+      parentName: TKVR02_RightFoot
+      position: {x: 0.01832202, y: -0.06263603, z: 0.13947003}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TKVR02_RightToe_End
+      parentName: TKVR02_RightToeBase
+      position: {x: -0.00000009980903, y: 1.3322676e-17, z: 0.07495531}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
